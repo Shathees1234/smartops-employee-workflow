@@ -19,33 +19,7 @@ JWT-secured · Role-based access · Leave management · Real-time dashboard
 
 ---
 
-## 🏗️ Architecture
-
-```
-smartops/
-├── backend/                     ← Spring Boot (Java 17)
-│   └── src/main/java/com/smartops/
-│       ├── Models.java          ← JPA entities + enums
-│       ├── Repositories.java    ← Spring Data JPA queries
-│       ├── Services.java        ← Business logic
-│       ├── Controllers.java     ← REST endpoints + DTOs
-│       └── Security.java        ← JWT + Spring Security
-│   └── src/main/resources/
-│       └── application.properties
-│
-└── frontend/                    ← React 18
-    └── src/
-        ├── App.js               ← Router + AuthContext + Axios
-        ├── Pages.js             ← All components
-        └── styles.css           ← Dark theme UI
-```
-
-> **9 files. Full-stack. Production-ready.**
-
----
-
 ## ⚡ Quick Start
-
 ### Prerequisites
 
 - Java 17+
